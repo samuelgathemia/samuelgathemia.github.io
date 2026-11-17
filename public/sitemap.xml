@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://samuelgathemia.github.io/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://samuelgathemia.github.io/projects</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://samuelgathemia.github.io/blog</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://samuelgathemia.github.io/resume</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://samuelgathemia.github.io/projects/smartlights</loc><priority>0.6</priority></url>
+  <url><loc>https://samuelgathemia.github.io/projects/esp32-lighting-controller</loc><priority>0.6</priority></url>
+  <url><loc>https://samuelgathemia.github.io/projects/freertos-message-bus</loc><priority>0.6</priority></url>
+  <url><loc>https://samuelgathemia.github.io/projects/wifi-manager</loc><priority>0.6</priority></url>
+  <url><loc>https://samuelgathemia.github.io/projects/uart-cli-framework</loc><priority>0.6</priority></url>
+  <url><loc>https://samuelgathemia.github.io/projects/esp-http-server</loc><priority>0.6</priority></url>
+  <url><loc>https://samuelgathemia.github.io/projects/ota-update-system</loc><priority>0.6</priority></url>
+  <url><loc>https://samuelgathemia.github.io/projects/sensor-dashboard</loc><priority>0.6</priority></url>
+  <url><loc>https://samuelgathemia.github.io/blog/message-bus-freertos</loc><priority>0.5</priority></url>
+  <url><loc>https://samuelgathemia.github.io/blog/wifi-manager-esp-idf</loc><priority>0.5</priority></url>
+  <url><loc>https://samuelgathemia.github.io/blog/event-loops</loc><priority>0.5</priority></url>
+  <url><loc>https://samuelgathemia.github.io/blog/state-machines</loc><priority>0.5</priority></url>
+  <url><loc>https://samuelgathemia.github.io/blog/maintainable-firmware</loc><priority>0.5</priority></url>
+</urlset>

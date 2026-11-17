@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>Samuel Gathemia — Embedded Systems Engineer</title>
+    <meta
+      name="description"
+      content="Portfolio of Samuel Gathemia — Embedded Systems &amp; Firmware Engineer working with ESP32, STM32, FreeRTOS, ESP-IDF, and IoT architectures."
+    />
+    <meta name="author" content="Samuel Gathemia" />
+    <meta name="theme-color" content="#0D1117" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Samuel Gathemia — Embedded Systems Engineer" />
+    <meta
+      property="og:description"
+      content="Firmware, RTOS, IoT, and embedded software architecture."
+    />
+    <meta property="og:site_name" content="Samuel Gathemia" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Samuel Gathemia — Embedded Systems Engineer" />
+    <meta
+      name="twitter:description"
+      content="Firmware, RTOS, IoT, and embedded software architecture."
+    />
+
+    <!-- Fonts (loaded via <link>, per Tailwind v4 rules) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- JSON-LD -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Samuel Gathemia",
+        "jobTitle": "Embedded Systems Engineer",
+        "url": "https://samuelgathemia.github.io/",
+        "sameAs": [
+          "https://github.com/samuelgathemia",
+          "https://www.linkedin.com/in/samuel-gathemia-mieee-ba18842a2/"
+        ],
+        "address": { "@type": "PostalAddress", "addressLocality": "Nairobi", "addressCountry": "KE" }
+      }
+    </script>
+
+    <!-- SPA redirect handoff for GitHub Pages 404.html trick -->
+    <script>
+      (function () {
+        var q = window.location.search;
+        if (q && q.indexOf("/?/") === 0) {
+          var decoded = q.slice(3).split("&").map(function (s) { return s.replace(/~and~/g, "&"); }).join("?");
+          window.history.replaceState(null, "", window.location.pathname.slice(0, -1) + decoded + window.location.hash);
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
